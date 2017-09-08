@@ -1,6 +1,32 @@
-#particles-js {
+body {
+  font-family: 'Segoe UI';
+}
+
+canvas {
+    display:block;
+    background: #000321;
+    position: fixed;
+    z-index: -1;
+}
+
+#content {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #000321;
+  color: #fff;
 }
+
+.left-col {
+  padding-left: 20%;
+}
+
+.right-col {
+  padding-right: 20%
+}
+
+.display-title {
+  font-family: "Comfortaa";
+  font-size: 7em;
+}
+
+
