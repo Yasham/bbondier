@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 canvas {
@@ -9,7 +9,7 @@ canvas {
     z-index: -1;
 }
 
-#content {
+.content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -24,9 +24,25 @@ canvas {
   padding-right: 20%
 }
 
-.display-title {
+.left-col h1 {
   font-family: "Comfortaa";
-  font-size: 7em;
+  font-size: 4em;
 }
 
+.left-col h2 {
+  font-family: "Comfortaa";
+  font-size: 2.5em;
+}
+
+.left-col h2 .name {
+  color: #FFBE00;
+}
+
+.text {
+  line-height: 1.5em;
+}
+
+.text a {
+  color: #FFBE00;
+}
 
